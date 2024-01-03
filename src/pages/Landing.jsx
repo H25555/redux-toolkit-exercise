@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import icon from "../assets/favicon.ico";
 
 const Landing = () => {
@@ -11,7 +12,7 @@ const Landing = () => {
                     <h1>Job <span>Tracking</span> App</h1>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas corrupti hic, qui earum saepe repellat eum fugiat ea eveniet commodi nihil? Nesciunt pariatur aut voluptatum, ipsam sapiente iure dolores?</p>
-                <button className="btn btn-hero"> Login/Register </button>
+                <Link to='/login' className="btn btn-primary"> Login/Register </Link>
                 
             </div>
         </main>
